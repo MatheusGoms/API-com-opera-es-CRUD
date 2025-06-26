@@ -17,3 +17,16 @@ npm install fastify fastify-plugin fastify-cors fastify-env
 npm install --save-dev nodemon
 
 
+6. Testando a API
+Inicie o servidor:
+
+
+npm run dev
+
+Faça as requisições usando Postman, Insomnia ou cURL:
+
+GET /api/users - Retorna todos os usuários.
+GET /api/users/:id - Retorna um usuário específico.
+POST /api/users - Cria um novo usuário.
+PUT /api/users/:id - Atualiza um usuário existente.
+DELETE /api/users/:id - Exclui um usuário.
